@@ -1,0 +1,19 @@
+kali@kali: ~$ sudo apt update
+kali@kali: ~$ apt list --upgradable 
+kali@kali: ~$ sudo apt upgrade
+kali@kali: ~$ sudo apt dist-upgrade
+kali@kali: ~$ sudo apt autoremove 
+
+kali@kali: ~$ python
+kali@kali: ~$ python3
+$ sudo apt-get upgrade python3
+kali@kali: ~$ sudo apt-get install python3-venv
+kali@kali: ~$ mkdir bhp
+kali@kali: ~$ cd bhp
+kali@kali: ~/bhp$ python3 -m venv venv3
+kali@kali: ~/bhp$ source venv3/bin/activate 
+(venv3) kali@kali: ~/bhp$ python 
+$ sudo apt install python3-pip
+(venv3) kali@kali: ~/bhp: pip install hashcrack
+(venv3) kali@kali: ~/bhp: pip install lxml
+
